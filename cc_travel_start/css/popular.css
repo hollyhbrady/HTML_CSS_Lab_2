@@ -1,0 +1,16 @@
+.popular {
+    display: grid;
+    grid-area: image;
+    justify-content: space-around;
+    grid-template-areas:
+        'image image image'
+        'image image image'
+}
+
+#header {
+    margin: 70px;
+}
+
+#yeet {
+    justify-content: center;
+}

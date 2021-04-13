@@ -8,8 +8,13 @@
   .footer {
     color: #FFF;
     background: #040E27;
+    justify-content: space-around;
     position: relative;
     padding: 20px;
+    display: grid;
+    grid-area: text;
+    grid-template-areas:
+        'text text text'
   }
   
   
@@ -76,9 +81,17 @@
     font-weight: 400;
     font-family: "Rubik", sans-serif;
     list-style: unset;
-  
   }
   
   .footer  .footer-widget ul li a:hover {
     color: #FF4A52;
   }
+
+  .footer div ul li a {
+    display: grid;
+    grid-area: list;
+    grid-template-areas:
+      'list list'
+      'list list';
+  }
+
